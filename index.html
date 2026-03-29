@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <h1>🛒 Gayu Store</h1>
+</header>
+
+<!-- Products Section -->
+<h2>Products</h2>
+<input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+<div id="products" class="product-container"></div>
+
+<!-- Cart Section -->
+<h2>Cart</h2>
+<div class="cart-box">
+    <ul id="cart"></ul>
+    <p>Total: ₹<span id="total">0</span></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
